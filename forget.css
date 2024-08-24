@@ -1,0 +1,542 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Helvetica, sans-serif;
+
+}
+body{
+    background-color: black;
+}
+.main{
+   height: 100vh;
+   width: 100vw;
+   background-image: url(forget\ background.jpg);
+   background-size: cover;
+}
+.header{
+    height: 7vw;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.title{
+    color: #E50914;
+    font-size: 4vw;
+    margin-top: 0.5vw;
+    margin-left: 1vw;
+    position: absolute;
+    left: 5vw;
+    top: 0.5vw;
+
+}
+
+ a{
+    color: #E50914;
+    text-decoration: none;
+    width: 6vw;
+    height: 2.5vw;
+    margin-top: 0.5vw;
+    margin-right: 5vw;
+    font-size: 1.7vw;
+    cursor: pointer;
+}
+
+.box{
+    height: 65vh;
+    width: 28vw;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 30%;
+    padding: 4vw;
+}
+.heading{
+    height: 6vw;
+    width: 100%;
+    opacity: 0.8;
+    font-size: 2.2vw;
+    font-weight: 600;
+    margin-bottom: 1.5vw;
+}
+.para1{
+    font-size: 1.2vw;
+    font-weight: 100;
+    opacity: 0.8;
+    height: 2vw;
+    width: 100%;
+    margin-bottom: 1.5vw;
+}
+
+#email{
+    height: 1.8vw;
+    width: 1.8vw;
+    margin-left: 2vw;
+}
+#email+label{
+    font-size: 1.5vw;
+    font-weight: 100;
+    opacity: 0.8;
+}
+#text{
+    height: 1.8vw;
+    width: 1.8vw;
+    margin-left: 2vw;
+    
+
+}
+#text+label{
+    font-size: 1.5vw;
+    opacity: 0.8;
+    font-weight: 100;
+}
+.para2{
+    margin-top: 1.5vw;
+    font-size: 1.2vw;
+    opacity: 0.8;
+    font-weight: 100;
+}
+.input{
+    margin-top: 1.5vw;
+    height: 3.5vw;
+    width: 95%;
+    border-radius: 0.2vw;  
+    font-size: 1vw; 
+    border: 1px solid rgba(128, 128, 128, 0.596);
+}
+.button{
+    margin-top: 1.5vw;
+    height: 3.5vw;
+    width: 95%;
+    border-radius: 0.2vw;   
+    background-color:#1b74e4;
+    font-size: 1.5vw;
+    color: #FFFFFF;
+    border: none;
+}
+.a2 a{
+    font-size: 1.2vw;
+    color: #1b74e4;
+    font-weight: 100;
+}
+.learnmore{
+    height: 12vw;
+    width: 35vw;
+    margin-left: 30%;    
+    position: relative;
+    top: 86%;
+}
+.learnmore p{
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    opacity: 0.7;
+    font-weight: 100;
+   
+}
+.learnmore p a{
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    text-decoration: underline;
+    opacity: 0.7;
+    font-weight: 100;
+}
+.footer{
+    height: 32vw;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer-content{
+    
+
+    width: 80vw;
+    height: 15vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.anchor1{
+    width: 100vw;
+    height: 3vw;
+    padding: 1.5vw;
+   
+}
+.anchor1 a{
+    color: #FFFFFF;
+    font-size: 1.5vw;
+    opacity: 0.7;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+.anchor1 a:hover{
+    text-decoration: underline;
+}
+
+.anchorlist{
+   
+    height: 6vw;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1vw;
+}
+.anchorlist ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.anchorlist ul li{
+    height: 1.8vw;
+    width: 24vw;
+    margin: 0.7vw 0px 0.4vw 0.6vw;
+    
+}
+
+.anchorlist ul li a{
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 1vw;
+    opacity: 0.5;
+}
+.anchorlist ul li a:hover{
+    text-decoration: underline;
+
+}
+/* #dcdde0 bottom color */
+/* background color #fafafa */
+/* f3f3f3 */
+@media (max-width:739px) {
+    body{
+        background-color: #f3f3f3;
+    }
+    .main{
+       height: 100vh;
+       width: 100vw;
+       background-image: none;
+       background-size: none;
+    }
+    .header{
+        height: 14vw;
+        width: 100vw;
+        background-color: #fafafa;
+    }
+    .title{
+        color: #E50914;
+        font-size: 7vw;
+        margin-top: 3vw;
+        margin-left: 1vw;
+        position: absolute;
+        left: 3vw;
+        top: 0.5vw;
+    }
+    
+     a{
+        width: 12vw;
+        height: 3vw;
+        font-size: 3.5vw;
+        margin-right: 3vw;   
+    }
+    .box{
+        height: 65vh;
+        width: 90vw;
+        background-color: #f3f3f3;
+        position: absolute;
+        left: 5%;
+        padding:0;
+        padding-top: 2vw;
+    }
+    .heading{
+        height: 6vh;
+        width: 100%;
+        opacity: 0.8;
+        font-size: 4vh;
+        margin-bottom: 1vw;
+    }
+    .para1{
+        font-size: 2.5vh;
+        font-weight: 100;
+        opacity: 0.8;
+        height: 3vw;
+        width: 100%;
+        margin-top: 1vh;
+        margin-bottom: 2vw;
+    }
+    
+    #email{
+        height: 3vh;
+        width: 3vh;
+        margin-left: 2vw;
+        margin-top: 2vw;
+    }
+    #email+label{
+        font-size:2.5vh;
+        opacity: 0.8;
+        font-weight: 100;
+    }
+
+    #text{
+        height: 3vh;
+        width: 3vh;
+        margin-left: 2vw;
+        margin-top: 1vw;
+    
+    }
+    #text+label{
+        font-size:2.5vh;
+        opacity: 0.8;
+        font-weight: 100;
+    }
+    .para2{
+        margin-top: 2.5vw;
+        font-size: 2.5vh;
+        font-weight: 100;
+        opacity: 0.8;
+    }
+    .input{
+        margin-top: 4vw;
+        height: 6vh;
+        width: 98%;
+        border-radius: 0.2vw;  
+        font-size: 2vh; 
+    }
+    .button{
+        margin-top: 5vw;
+        height: 7vh;
+        width: 98%;
+        border-radius: 0.2vw;   
+        background-color:#1b74e4;
+        font-size: 2.5vh;
+        color: #FFFFFF;
+        border: none;
+    }
+    .a2{
+        margin-top: 2.5vh;
+    }
+    .a2 a{
+        font-size: 2.2vh;
+        font-weight: 100;
+        color: #1b74e4;
+    }
+    .learnmore{
+        height: 12vw;
+        width: 90%;
+        margin-left: 5%;    
+        position: relative;
+        top: 70%;
+        margin-top: 1vw;
+        
+    }
+    .learnmore p{
+        color: black;
+        opacity: 0.7;
+        font-size: 2.2vh;
+       
+    }
+    .learnmore p a{
+        color: black;
+        font-size: 2.2vh;
+
+        opacity: 0.7;
+    }
+    .footer{
+        height: 40vw;
+        width: 100vw;
+        opacity: 0.7;
+    
+    }
+    .footer-content{
+        width: 80vw;
+        height: 30vw;
+    }
+    .anchor1{
+        width: 100vw;
+        height: 4vw;
+    }
+    .anchor1 a{
+        font-size: 3.5vw; 
+    }    
+    .anchorlist{
+       
+        height: 17vw;
+        width: 100vw;
+    }
+    .anchorlist ul li{
+        height: 2.5vw;
+        width: 28vw;  
+    }
+    
+    .anchorlist ul li a{
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width:510px) {
+    body{
+        background-color: #f3f3f3;
+    }
+    .main{
+       height: 100vh;
+       width: 100vw;
+       background-image: none;
+       background-size: none;
+    }
+    .header{
+        height: 14vw;
+        width: 100vw;
+        background-color: #fafafa;
+    }
+    .title{
+        color: #E50914;
+        font-size: 9vw;
+        margin-top: 1vw;
+        margin-left: 1vw;
+        position: absolute;
+        left: 3vw;
+        top: 0.5vw;
+    }
+    
+     a{
+        width: 12vw;
+        height: 3vw;
+        font-size: 3.5vw;
+        margin-right: 3vw;   
+    }
+    .box{
+        height: 60vh;
+        width: 90vw;
+        background-color: #f3f3f3;
+        position: absolute;
+        left: 5%;
+        padding:0;
+        padding-top: 2vw;
+    }
+    .heading{
+        height: 8vh;
+        width: 100%;
+        opacity: 0.8;
+        font-size: 3.2vh;
+        margin-bottom: 2vw;
+    }
+    .para1{
+        font-size: 1.8vh;
+        font-weight: 100;
+        opacity: 0.8;
+        height: 5vw;
+        width: 100%;
+        margin-top: 1vh;
+        margin-bottom: 3svw;
+    }
+    
+    #email{
+        height: 2.5vh;
+        width: 2.5vh;
+        margin-left: 2vw;
+        margin-top: 4vw;
+    }
+    #email+label{
+        font-size:2vh;
+        opacity: 0.8;
+        font-weight: 100;
+    }
+
+    #text{
+        height: 2.5vh;
+        width: 2.5vh;
+        margin-left: 2vw;
+        margin-top: 1vw;
+    
+    }
+    #text+label{
+        font-size:2vh;
+        opacity: 0.8;
+        font-weight: 100;
+    }
+    .para2{
+        margin-top: 2.5vw;
+        font-size: 1.8vh;
+        font-weight: 100;
+        opacity: 0.8;
+    }
+    .input{
+        margin-top: 4vw;
+        height: 6vh;
+        width: 98%;
+        border-radius: 0.2vw;  
+        font-size: 2vh; 
+    }
+    .button{
+        margin-top: 5vw;
+        height: 7vh;
+        width: 98%;
+        border-radius: 0.2vw;   
+        background-color:#1b74e4;
+        font-size: 2.5vh;
+        color: #FFFFFF;
+        border: none;
+    }
+    .a2{
+        margin-top: 2vh;
+    }
+    .a2 a{
+        font-size: 1.8vh;
+        font-weight: 100;
+        color: #1b74e4;
+    }
+    .learnmore{
+        height: 12vw;
+        width: 90%;
+        margin-left: 5%;    
+        position: relative;
+        top: 62%;
+        margin-top: 1vw;
+        
+    }
+    .learnmore p{
+        color: black;
+        opacity: 0.7;
+        font-size: 1.8vh;
+       
+    }
+    .learnmore p a{
+        color: black;
+        font-size: 1.8vh;
+        opacity: 0.7;
+    }
+    .footer{
+        height: 40vw;
+        width: 100vw;
+        opacity: 0.7;
+    
+    }
+    .footer-content{
+        width: 80vw;
+        height: 30vw;
+    }
+    .anchor1{
+        width: 100vw;
+        height: 4vw;
+    }
+    .anchor1 a{
+        font-size: 3.5vw; 
+    }    
+    .anchorlist{
+       
+        height: 17vw;
+        width: 100vw;
+    }
+    .anchorlist ul li{
+        height: 2.5vw;
+        width: 28vw;  
+    }
+    
+    .anchorlist ul li a{
+        font-size: 2.5vw;
+    }
+    
+}
+
+    
