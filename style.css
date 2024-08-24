@@ -108,6 +108,11 @@
     font-size: 1.5vw;
     font-weight: 500;
     cursor: pointer;
+    
+}
+#getstarted a{
+    color: #FFFFFF;
+    text-decoration: none;
 }
 #getstarted i{
     margin-left: 5px;
