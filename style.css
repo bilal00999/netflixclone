@@ -23,7 +23,7 @@
 }
 .title{
     color: #E50914;
-    font-size: 4vw;
+    font-size: 5vw;
     margin-top: 1.5vw;
     margin-left: 12vw;
     
@@ -31,15 +31,15 @@
 .signin{
     background-color:#E50914;
     border: none;
-    width: 6vw;
-    height: 2.5vw;
-    border-radius: 5px;
+    width: 7vw;
+    height: 2.7vw;
+    border-radius: 0.4vw;
     margin-top: 1.5vw;
-    margin-right: 13vw;
-    font-size: 1vw;
+    /* margin-right: 7vw; */
+    position: absolute;
+    right: 10%;
+    font-size: 1.2vw;
     font-weight: 500;
-    /* position: relative;
-    left: 900px; */
     cursor: pointer;
 }
 .signin a{
@@ -88,7 +88,7 @@
     border: 1px solid #E50914;
     height: 4vw;
     width: 22vw;
-    border-radius: 5px;
+    border-radius: 0.4vw;
     margin-right: 0.5vw;
     font-size: 1.1vw;
     padding-left: 1.5vw;
@@ -101,7 +101,7 @@
     border: none;
     height: 4.2vw;
     width: 12vw;
-    border-radius: 5px;
+    border-radius: 0.4vw;
     font-size: 1.5vw;
     font-weight: 500;
     cursor: pointer;
@@ -112,7 +112,7 @@
     text-decoration: none;
 }
 #getstarted i{
-    margin-left: 5px;
+    margin-left: 0.4vw;
 }
 #getstarted:hover{
     background-color:#a8020a;
@@ -166,7 +166,7 @@
     
     width: 46vw;
     height: 29vw;
-    margin: 10px 131.92px 0px 300.92px;
+    margin: 1vw 12vw 0px 27vw;
     
 }
 .page4-content h2{
@@ -181,71 +181,85 @@
 }
 
 @media (max-width:600px) {
+    *{
+        margin: 0;
+        padding: 0;
+        font-family:Helvetica, sans-serif;
+    
+    }
+    .outer-main{
+        background-color:#3A3A40;
+    }
     .inner-main{
+        width: 100vw;
         height: 100vh;
-        width: 100vh;
         background-size: cover;
     }
 
     .title{
-        font-size: 10vh;
+        font-size: 10vw;
         margin-top: 3vw;
-        margin-left: 18vw;
+        margin-left: 10vw;
     }
     .signin{
-        width: 18vh;
-        height: 5vh;
-        border-radius: 5px;
+        width: 15vw;
+        height: 5vw;
+        border-radius: 0.8vw;
         margin-top: 3vw;
-        margin-right: 8vw;
-        font-size: 2.5vh;
+        position: absolute;
+        right: 7%;
+        font-size: 3vw;
         font-weight: 500;
     }
     .main-content{
-        width: 120vw;
-        height: 90vw;
+        width: 100%;
+        height: 80vw;
         position:relative;
-        top: 20%;
-        left: 25%;
+        top: 10%;
+        left: 0;
         
     }
     #heading1{
-        font-size: 5vh;
+        font-size: 6vw;
         width: 100%;
     }
     #para1{
-        font-size: 3.5vh;
-        margin-top: 3vw;
+        font-size: 4vw;
+        margin-top: 2.5vw;
     }
     #heading3{
-        font-size: 2.5vh;
+        font-size: 3vw;
         font-weight: normal;
-        margin-top: 5vw;
+        margin-top: 2.5vw;
     }
     #email{
-        height: 9vh;
-        width: 60vh;
-        margin-top: 5vw;
-        font-size: 5vw;
+        height: 9vw;
+        width: 80vw;
+        margin-top: 3vw;
+        font-size: 3.5vw;
         padding-left: 2.5vw;
         
         
     }
     #getstarted{
         
-        height: 9vh;
-        width: 35vh;
-        font-size: 5vh;
+        height: 9vw;
+        width: 50vw;
+        font-size: 5.5vw;
         font-weight: 500;
-        margin-top: 5vw;
+        margin-top: 3vw;
         cursor: pointer;
     }
+    #getstarted a{
+        color: #FFFFFF;
+        text-decoration: none;
+    }
     #getstarted i{
-        margin-left: 1vh;
+        margin-left: 1vw;
     }
     .page2{
-        width: 100vh;
-        height: 75vh;
+        width: 100vw;
+        height: 80vw;
         display: flex;
         flex-wrap: wrap; 
          justify-content: center;
@@ -255,27 +269,27 @@
     }
     .page2-content{
         
-        width: 60vh;
-        height: 35vh;
+        width: 62vw;
+        height: 37.8vw;
         
     }
     .page2-content h2{
-        font-size: 8vh;
+        font-size: 9vw;
         font-weight: 700;
         color: #FFFFFF;
     }
     .page2-content p{
-        font-size: 3vh;
+        font-size: 3.5vw;
         color: #FFFFFF;
-        margin-top: 1vw;
+        margin-top: 2vw;
     }
     .page2-image img{
-        width: 60vh;
-        height: 35vh;
+        width: 62vw;
+        height: 37.8vw;
     }
     .page4{
-        width: 100vh;
-        height: 75vh;
+        width: 100vw;
+        height: 80vw;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -285,18 +299,18 @@
     }
     .page4-content{
         
-        width: 70vh;
-        height: 40vh;
+        width: 70vw;
+        height: 43vw;
         /* margin: 1vw 13vw 0px 25vw; */
         
     }
     .page4-content h2{
-        font-size: 10vh;
+        font-size: 11vw;
         font-weight: 700;
         color: #FFFFFF;
     }
     .page4-content p{
-        font-size: 4vh;
+        font-size: 4.3vw;
         color: #FFFFFF;
         margin-top: 2vw;
     }
